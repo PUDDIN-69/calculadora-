@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        input {
+            width: 200px;
+            height: 30px;
+            font-size: 18px;
+            color: rgb(0, 255, 34);
+        }
+        div{
+            text-align: center;
+            color: rgb(236, 1, 131);
+           
+        }
+        hi{
+            font: size 40 px
+            
+            
+        }
+    </style>
+
+</head>
+<body>
+    
+<div>
+
+<hi>Login</hi>
+<form method = "POST" action = "login_registrar.php">
+<input type = "text" name = "txtusuario" placeholder = " Ingresar usuario">
+<input type = "password" name = "txtpassword" placeholder = "Ingresar contraseña">
+<input type = "submit" value = "iniciar sesion" name = "btnlogin">
+</form>
+
+<br>
+
+<hi>Registrar</hi>
+<form method = "POST" action = "login_registrar.php">
+    <input type = "text" name = "txtusuario" placeholder = "Usuario a registrar">
+    <input type = "password" name = "txtpassword" placeholder = "Contraseña a registrar">
+    <input type = "submit" value = "Registrar" name = "btnregistrar">
+</form>
+
+</div>
+
+</body>
+</html>
